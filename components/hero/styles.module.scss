@@ -1,0 +1,60 @@
+.head_wrapper {
+	@apply bg-cover bg-center bg-[url('/background_hero.svg')];
+
+	.head {
+		@apply flex flex-col min-w-full min-h-screen top-[-2px]  bg-gradient-to-t from-[#0BAEB9];
+	}
+	.input_header {
+		@apply flex grow-[10] justify-center text-center text-base font-serif text-white;
+
+		.input_header_text {
+			@apply flex text-[30px] mt-auto mb-4 leading-[120%] w-[40%] font-bold;
+		}
+	}
+
+	.input_search {
+		@apply flex grow-[1] justify-center items-center text-center;
+
+		.input_search_wrapper {
+			@apply flex relative w-[40%] items-center;
+		}
+
+		input {
+			@apply w-[100%] h-16 rounded-full outline-none pl-16;
+		}
+		.button_div {
+			@apply bg-center cursor-pointer left-1 w-[50px] absolute bg-cover inset-y-[5px] rounded-full bg-[#80e5ff] bg-[url('/loop.svg')];
+		}
+	}
+
+	.input_logos {
+		@apply flex grow-[3] gap-x-8 justify-center items-center text-lg font-serif text-white;
+
+		.input_logos_1 {
+			@apply flex;
+
+			.input_logos_1_text {
+				@apply leading-5;
+			}
+
+			img {
+				@apply pl-1;
+			}
+		}
+
+		.input_logos_2 {
+			@apply font-bold text-xl;
+		}
+	}
+
+	.input_advertiz {
+		@apply flex grow-[3] justify-center text-white items-center text-center font-serif;
+
+		p {
+			@apply text-xl w-[40%];
+		}
+	}
+	.footer {
+		@apply flex grow-[1] justify-center font-serif text-white text-center text-sm;
+	}
+}

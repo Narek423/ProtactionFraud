@@ -1,0 +1,23 @@
+.body {
+	@apply flex flex-col gap-6 justify-center items-center min-w-full min-h-screen bg-cover bg-center font-serif bg-[url('/submitionBackground.svg')];
+
+	.title {
+		@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
+
+		span {
+			@apply text-[#0BAEB9];
+		}
+	}
+
+	.text {
+		@apply text-[#95A1A1] w-2/5  text-center;
+	}
+
+	.button {
+		@apply flex justify-center items-center text-white text-lg cursor-pointer h-16 w-[350px] rounded-[55px] bg-[#0baeb9] shadow-[0_4_24] shadow-[#0baeb9];
+	}
+
+	img {
+		@apply pr-6;
+	}
+}

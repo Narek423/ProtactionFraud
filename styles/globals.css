@@ -2,127 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .main {
-	display: flex;
-	justify-content: center;
-} */
-
-/* .body_a4 {
-	display: flex;
-	flex-direction: column;
-	width: 630px;
-	height: 745px;
-} */
-
-/* .title {
-	display: flex;
-	flex: 1;
-	justify-content: center;
-	align-items: center;
-	background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
-	background-size: 650px 170px;
-} */
-
-/* .about {
-	display: flex;
-	flex-direction: column;
-	background-color: #f69b5532;
-	flex: 1.5;
-} */
-
-/* .month_statistic {
-	flex: 0.5;
-} */
-
-/* .subscription {
-	display: flex;
-	flex-direction: row;
-	flex: 0.5;
-	background-color: #f69b5532;
-} */
-
-/* .subscription_blocks {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	flex-grow: 1;
-	text-align: center;
-	padding-top: 15px;
-	font-size: 15px;
-} */
-
-/* .title_content {
-	padding: 40px 0;
-	background-color: rgba(240, 248, 255, 0.495);
-	width: 300px;
-	text-align: center;
-	border: 2px dashed #e2955a;
-} */
-
-/* .about_title {
-	padding: 5px 0;
-	text-align: center;
-} */
-
-/* .about_content {
-	display: flex;
-	flex-direction: row;
-	flex: 1;
-} */
-
-/* .about_content_img {
-	display: flex;
-	flex: 1;
-	justify-content: center;
-} */
-
-/* .about_content_text {
-	flex: 2;
-	padding: 5px;
-} */
-
-/* .month_statistic {
-	display: flex;
-	flex-direction: row;
-	background-color: rgba(237, 194, 142, 0.488);
-} */
-
-/* .audiance {
-	flex: 1.5;
-	background-color: rgba(255, 228, 196, 0.74);
+* {
+	@apply font-serif;
 }
 
-.audiance {
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(237, 194, 142, 0.488);
+::-webkit-scrollbar {
+	width: 10px;
 }
 
-.subscription_blocks img {
-	margin: 0 auto;
-	border-radius: 50%;
-	width: 30px;
-	height: 30px;
-} */
-
-/* .audiance_content {
-	display: flex;
-	flex-direction: row;
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
 }
 
-.audiance_content_data {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	flex: 1;
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(171, 171, 171, 0.727);
 }
 
-.audiance_content_data div {
-	padding: 20px;
-} */
-
-/* .audiance_content_img {
-	display: flex;
-	justify-content: center;
-	flex: 1;
-} */
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}

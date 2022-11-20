@@ -1,0 +1,14 @@
+.body {
+	@apply flex flex-col justify-center items-center text-center font-serif mt-8;
+
+	.title {
+		@apply text-black font-bold text-lg;
+	}
+	.text {
+		@apply text-gray-400 mt-1 w-[60%];
+	}
+
+	.num {
+		@apply text-gray-400 opacity-40 text-[45px];
+	}
+}

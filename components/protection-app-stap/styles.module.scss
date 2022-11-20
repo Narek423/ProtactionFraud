@@ -1,0 +1,11 @@
+.wrapper {
+	@apply flex flex-col justify-center items-center text-center;
+
+	.text {
+		@apply text-[#95A1A1] mt-1 w-[70%];
+	}
+
+	.num {
+		@apply text-[#0BAEB9] text-[45px];
+	}
+}

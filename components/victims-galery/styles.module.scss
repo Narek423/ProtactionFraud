@@ -1,0 +1,61 @@
+.victims_wrapper {
+	@apply flex flex-col min-w-full min-h-screen bg-cover bg-center bg-[url('/victimsBackground.png')] p-16;
+
+	.head {
+		@apply flex flex-1 pt-8;
+
+		.text_conteiner {
+			@apply flex-1 flex-col text-white font-serif mb-auto mt-auto ml-[7%];
+
+			h1 {
+				@apply text-4xl;
+			}
+
+			p {
+				@apply flex w-[50%] mt-8;
+			}
+		}
+		.button_coneiner {
+			@apply flex justify-end flex-[1];
+
+			span {
+				@apply h-[73px] w-[180px] mt-auto mb-[3%] mr-[15%];
+			}
+
+			.img_1 {
+				@apply inline-block cursor-pointer;
+			}
+
+			.img_2 {
+				@apply inline-block cursor-pointer ml-[40px];
+			}
+			img {
+				@apply rounded-full;
+			}
+		}
+	}
+
+	.victims_grid {
+		@apply flex gap-7 py-8 mt-10;
+
+		.victims_story {
+			@apply flex flex-col w-[350px] bg-[#F2F2F2] rounded-xl font-serif shadow-xl shadow-gray-500/40;
+
+			.img_wrapper {
+				@apply object-cover bg-cover bg-center;
+
+				img {
+					@apply rounded-t-xl;
+				}
+			}
+
+			h1 {
+				@apply p-4 font-bold text-lg;
+			}
+
+			p {
+				@apply rounded-b-xl p-3 text-[#95A1A1] pt-0;
+			}
+		}
+	}
+}
