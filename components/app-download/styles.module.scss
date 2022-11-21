@@ -1,0 +1,43 @@
+.body {
+	@apply flex justify-center items-center min-w-full min-h-screen;
+
+	.conteiner {
+		@apply flex bg-[#F4F8F9] mt-[12%] mb-[5%] w-[85%];
+
+		.informationDownload {
+			@apply flex flex-col bg-[#F4F8F9] w-[50%] p-[5%];
+			.title {
+				@apply text-5xl leading-[120%];
+
+				span {
+					@apply text-5xl text-[#0BAEB9];
+				}
+			}
+
+			.downloadText {
+				@apply font-normal text-lg leading-[150%] text-[#95a1a1] w-[75%] pt-6;
+			}
+
+			img {
+				@apply pt-6 w-36;
+			}
+
+			.downloadButton {
+				@apply flex gap-4 pt-2;
+
+				.playMButton {
+					@apply cursor-pointer;
+				}
+				.appleButton {
+					@apply cursor-pointer;
+				}
+			}
+		}
+		.imgPart {
+			@apply mt-[-10%];
+			img {
+				@apply ml-[7%];
+			}
+		}
+	}
+}
