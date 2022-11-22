@@ -2,7 +2,7 @@
 	@apply bg-cover bg-center bg-[url('/background_hero.svg')];
 
 	.head {
-		@apply flex flex-col min-w-full min-h-screen top-[-2px]  bg-gradient-to-t from-[#0BAEB9];
+		@apply flex flex-col min-w-full min-h-screen top-[-2px]  bg-gradient-to-t from-cyan1;
 	}
 	.input_header {
 		@apply flex grow-[10] justify-center text-center text-base text-white;
@@ -23,7 +23,7 @@
 			@apply w-[100%] h-16 rounded-full outline-none pl-16;
 		}
 		.button_div {
-			@apply bg-center cursor-pointer left-1 w-[50px] absolute bg-cover inset-y-[5px] rounded-full bg-[#80e5ff] bg-[url('/loop.svg')];
+			@apply bg-center cursor-pointer left-1 w-[50px] absolute bg-cover inset-y-[5px] rounded-full bg-[url('/loop.svg')];
 		}
 	}
 

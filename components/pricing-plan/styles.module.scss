@@ -1,14 +1,51 @@
-.body {
-	@apply flex flex-col justify-center items-center text-center mt-8;
+.header {
+	@apply flex flex-col gap-3 justify-center items-center text-center bg-[#F4F8F9] py-8;
+
+	.mark {
+		@apply absolute mt-[-175px] mr-[-250px] text-white p-1 px-2 bg-cyan1 rounded-[40px];
+	}
+
+	.price {
+		@apply text-3xl leading-7 text-cyan1;
+
+		span {
+			@apply absolute text-2xl ml-[-13px] mt-[-6px];
+		}
+	}
 
 	.title {
-		@apply text-black font-bold text-lg;
-	}
-	.text {
-		@apply text-gray-400 mt-1 w-[60%];
+		@apply text-3xl leading-7 text-[#4e4e4e];
 	}
 
-	.num {
-		@apply text-gray-400 opacity-40 text-[45px];
+	.planLongevity {
+		@apply text-lg leading-7 text-[#95a1a1];
+	}
+}
+
+.features_container {
+	@apply flex flex-col gap-3 py-6;
+
+	.features_item,
+	.features_item_cyan {
+		@apply flex pl-5 text-base leading-7 text-[#5b5150];
+		img {
+			@apply pr-3;
+		}
+	}
+
+	.features_item_cyan {
+		@apply text-cyan1;
+	}
+}
+
+.botton_wrapper {
+	@apply flex justify-center w-full;
+
+	.button,
+	.button_cyan {
+		@apply flex justify-center items-center cursor-pointer mb-6 w-[305px] h-[50px] border-cyan1 border-[2px] rounded;
+	}
+	.button_cyan {
+		@apply bg-cyan1 text-white;
 	}
 }

@@ -5,7 +5,7 @@
 		@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
 
 		span {
-			@apply text-[#0BAEB9];
+			@apply text-cyan1;
 		}
 	}
 
@@ -14,7 +14,7 @@
 	}
 
 	.button {
-		@apply flex justify-center items-center text-white text-lg cursor-pointer h-16 w-[350px] rounded-[55px] bg-[#0baeb9] shadow-[0_4_24] shadow-[#0baeb9];
+		@apply flex justify-center items-center text-white text-lg cursor-pointer h-16 w-[350px] rounded-[55px] bg-cyan1 shadow-[0_4_24] shadow-cyan1;
 	}
 
 	img {

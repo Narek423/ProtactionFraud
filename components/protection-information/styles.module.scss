@@ -5,7 +5,7 @@
 		@apply text-[30px] text-center mt-14 w-[40%] leading-[130%];
 
 		span {
-			@apply text-[#0baeb9];
+			@apply text-cyan1;
 		}
 	}
 	.suggestion {
@@ -28,7 +28,7 @@
 		@apply bg-cover bg-center bg-[url('/videoBackground.svg')] w-[60%] ml-[10%] rounded-lg mb-14;
 
 		.bottomVideoCont {
-			@apply flex items-center min-w-full py-16 bg-gradient-to-t from-[#0BAEB9] to-[#0badb99b] rounded-lg;
+			@apply flex items-center min-w-full py-16 bg-gradient-to-t from-cyan1 to-[#0badb99b] rounded-lg;
 
 			.videoScreen {
 				@apply flex grow items-center justify-center bg-cover bg-center w-1/2 aspect-video bg-slate-400 ml-[-10%] bg-[url('/videoGirl.svg')]  rounded-lg;
