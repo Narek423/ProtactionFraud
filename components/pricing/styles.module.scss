@@ -1,0 +1,29 @@
+.body {
+	@apply flex flex-col items-center min-h-screen gap-y-6 w-[85%] mx-auto;
+
+	.title {
+		@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
+
+		span {
+			@apply text-[#0BAEB9];
+		}
+	}
+
+	.text {
+		@apply text-[#95A1A1] w-[30%]  text-center;
+	}
+
+	img {
+		@apply pr-6;
+	}
+
+	.pricing_container {
+		@apply grid grid-cols-3 gap-7 w-full;
+
+		div {
+			background-color: aqua;
+			border: 1px solid #eaeeef;
+			border-radius: 12px;
+		}
+	}
+}

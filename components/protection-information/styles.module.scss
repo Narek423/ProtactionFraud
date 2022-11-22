@@ -2,7 +2,7 @@
 	@apply flex flex-col items-center min-w-full min-h-screen bg-[#F4F8F9];
 
 	.header {
-		@apply text-[30px] text-center font-serif mt-14 w-[40%] leading-[130%];
+		@apply text-[30px] text-center mt-14 w-[40%] leading-[130%];
 
 		span {
 			@apply text-[#0baeb9];
@@ -12,7 +12,7 @@
 		@apply grid grid-cols-8 grid-rows-[7] mt-12 py-8 w-full;
 
 		.suggestion_title {
-			@apply text-center col-start-4 col-end-6 row-start-1 text-[23px] text-gray-400 font-serif;
+			@apply text-center col-start-4 col-end-6 row-start-1 text-[23px] text-gray-400;
 		}
 		.suggestion_step1 {
 			@apply col-start-2 col-span-2 row-start-1 row-end-5;
@@ -34,7 +34,7 @@
 				@apply flex grow items-center justify-center bg-cover bg-center w-1/2 aspect-video bg-slate-400 ml-[-10%] bg-[url('/videoGirl.svg')]  rounded-lg;
 			}
 			.bottomVideoContText {
-				@apply flex grow flex-col w-1/2 px-6 overflow-hidden text-white font-serif;
+				@apply flex grow flex-col w-1/2 px-6 overflow-hidden text-white;
 
 				h1 {
 					@apply text-4xl mb-6;

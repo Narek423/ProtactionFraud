@@ -5,7 +5,7 @@
 		@apply flex flex-1 pt-8;
 
 		.text_conteiner {
-			@apply flex-1 flex-col text-white font-serif mb-auto mt-auto ml-[7%];
+			@apply flex-1 flex-col text-white mb-auto mt-auto ml-[7%];
 
 			h1 {
 				@apply text-4xl;
@@ -39,7 +39,7 @@
 		@apply flex gap-7 py-8 mt-10;
 
 		.victims_story {
-			@apply flex flex-col w-[350px] bg-[#F2F2F2] rounded-xl font-serif shadow-xl shadow-gray-500/40;
+			@apply flex flex-col w-[350px] bg-[#F2F2F2] rounded-xl shadow-xl shadow-gray-500/40;
 
 			.img_wrapper {
 				@apply object-cover bg-cover bg-center;

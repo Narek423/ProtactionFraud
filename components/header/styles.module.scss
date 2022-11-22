@@ -11,7 +11,7 @@
 	@apply flex py-6 justify-around items-center z-10 inset-x-0 w-full h-14;
 
 	.logo {
-		@apply flex cursor-pointer font-bold text-white text-lg font-serif pl-6 justify-center items-center;
+		@apply flex cursor-pointer font-bold text-white text-lg pl-6 justify-center items-center;
 
 		img {
 			@apply pr-3;
@@ -22,18 +22,18 @@
 		@apply flex gap-x-8 justify-between ml-auto mr-auto;
 
 		.nav_buttons {
-			@apply flex cursor-pointer font-bold text-white text-base font-serif hover:text-grey;
+			@apply flex cursor-pointer font-bold text-white text-base hover:text-grey;
 		}
 	}
 	.auth_buttons {
 		@apply flex  gap-x-6 justify-between pr-6;
 
 		.signin {
-			@apply flex cursor-pointer font-bold text-white text-base font-serif pl-2 hover:text-grey;
+			@apply flex cursor-pointer font-bold text-white text-base pl-2 hover:text-grey;
 		}
 
 		.register {
-			@apply flex justify-center w-24 h-8 rounded-3xl bg-white items-center hover:bg-grey mt-[-3px] cursor-pointer font-bold text-base font-serif;
+			@apply flex justify-center w-24 h-8 rounded-3xl bg-white items-center hover:bg-grey mt-[-3px] cursor-pointer font-bold text-base;
 		}
 	}
 }

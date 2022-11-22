@@ -5,6 +5,7 @@ import ProtectionInformation from "../components/protection-information";
 import VictimsGalery from "../components/victims-galery";
 import ProtectionApp from "../components/protaction-app";
 import AppDownload from "../components/app-download";
+import Pricing from "../components/pricing";
 
 export default function Home() {
 	return (
@@ -16,6 +17,7 @@ export default function Home() {
 			<Sabmition />
 			<ProtectionApp />
 			<AppDownload />
+			<Pricing />
 		</div>
 	);
 }

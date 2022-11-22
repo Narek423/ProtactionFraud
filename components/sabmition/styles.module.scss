@@ -1,5 +1,5 @@
 .body {
-	@apply flex flex-col gap-6 justify-center items-center min-w-full min-h-screen bg-cover bg-center font-serif bg-[url('/submitionBackground.svg')];
+	@apply flex flex-col gap-6 justify-center items-center min-w-full min-h-screen bg-cover bg-center bg-[url('/submitionBackground.svg')];
 
 	.title {
 		@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
