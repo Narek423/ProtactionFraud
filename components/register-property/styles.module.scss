@@ -1,0 +1,22 @@
+.body {
+	@apply relative w-[85%] mx-auto mt-[5%];
+
+	> img {
+		@apply w-full;
+	}
+
+	.conteiner {
+		@apply flex flex-col leading-[120%] text-[32px] text-[#ffffffc2] justify-end items-center gap-10 absolute inset-0 bg-gradient-to-t from-[#0badb9e3] mt-[15%];
+
+		.titel {
+			@apply flex justify-center text-center w-[50%];
+
+			> img {
+				@apply absolute h-14 w-14;
+			}
+		}
+		.button {
+			@apply flex shadow-[0_4px24px_-15px_rgba(10,172,184,0.122)] justify-center bg-[#ffffff4d] text-[19px] items-center px-10 py-2 cursor-pointer mb-[5%] rounded-[55px];
+		}
+	}
+}

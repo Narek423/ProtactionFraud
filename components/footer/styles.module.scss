@@ -1,0 +1,11 @@
+.body {
+	@apply flex justify-between w-[85%] mx-auto text-[#95A1A1] py-5 text-[13px] shadow-[0_-2px_0px_rgba(242,242,242)];
+
+	.social_icons_container {
+		@apply flex gap-4;
+
+		> img {
+			@apply cursor-pointer;
+		}
+	}
+}

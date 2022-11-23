@@ -1,0 +1,25 @@
+.body {
+	@apply flex w-[85%] mx-auto;
+
+	.pricing_container {
+		@apply grid grid-cols-4 gap-28 w-full my-5 py-[6%] shadow-[0_-2px_0px_rgba(242,242,242)];
+
+		.pricing_col {
+			@apply flex flex-col gap-7;
+
+			.pricing_items {
+				@apply text-base text-[#95A1A1] cursor-pointer;
+			}
+			.pricing_items_header {
+				@apply text-xl font-medium;
+			}
+		}
+	}
+	.buttonApp,
+	.buttonPlay {
+		@apply w-[132px] h-[38px] cursor-pointer;
+	}
+	.buttonPlay {
+		@apply mt-[-10px];
+	}
+}
