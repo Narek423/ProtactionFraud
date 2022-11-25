@@ -34,6 +34,7 @@ const ProtectionInformation: FC = () => {
 					from <span>identity theft</span> and <span>property hijacking</span>
 				</p>
 			</div>
+			<img src='/line.svg' />
 			<div className={styles.suggestion}>
 				<div className={styles.suggestion_title}>
 					3 simple steps that can turn your world upside down

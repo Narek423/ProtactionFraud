@@ -1,26 +1,27 @@
 .head_wrapper {
-	@apply bg-cover bg-center bg-[url('/background_hero.svg')];
+	@apply flex relative bg-cover bg-center bg-[url('/background_hero.svg')];
 
 	.head {
-		@apply flex flex-col min-w-full min-h-screen top-[-2px]  bg-gradient-to-t from-cyan1;
+		@apply flex flex-col justify-center min-w-full min-h-screen top-[-2px] bg-gradient-to-t from-cyan1 px-[5%];
 	}
 	.input_header {
-		@apply flex grow-[10] justify-center text-center text-base text-white;
+		@apply flex justify-center text-center text-base text-white;
 
 		.input_header_text {
-			@apply flex text-[30px] mt-auto mb-4 leading-[120%] w-[40%] font-bold;
+			@apply flex xl:text-[44px]  text-2xl mt-auto mb-4 md:text-[32px] 
+			md:w-[60%] leading-[150%] md:leading-[120%] lg:w-[70%] w-[80%] font-bold xl:w-[55%];
 		}
 	}
 
 	.input_search {
-		@apply flex grow-[1] justify-center items-center text-center;
+		@apply flex justify-center items-center text-center pt-2;
 
 		.input_search_wrapper {
-			@apply flex relative w-[40%] items-center;
+			@apply flex relative w-[100%] md:w-[70%] lg:w-[60%] items-center xl:w-[55%];
 		}
 
 		input {
-			@apply w-[100%] h-16 rounded-full outline-none pl-16;
+			@apply w-[100%] h-14 lg:h-16 rounded-full outline-none pl-16;
 		}
 		.button_div {
 			@apply bg-center cursor-pointer left-1 w-[50px] absolute bg-cover inset-y-[5px] rounded-full bg-[url('/loop.svg')];
@@ -28,33 +29,29 @@
 	}
 
 	.input_logos {
-		@apply flex grow-[3] gap-x-8 justify-center items-center text-lg text-white;
+		@apply flex gap-x-8 justify-center items-center pt-6;
+	}
+	.applDownloadLogo {
+		@apply flex justify-center lg:hidden text-white pt-6;
 
-		.input_logos_1 {
-			@apply flex;
-
-			.input_logos_1_text {
-				@apply leading-5;
-			}
+		div {
+			@apply flex shadow-[0px_4px_24px_rgba(11,174,185,0.12)] bg-[#ffffff4d] 
+			rounded-[55px] justify-center w-56 items-center h-14 cursor-pointer text-lg;
 
 			img {
-				@apply pl-1;
+				@apply pr-2 pb-1;
 			}
 		}
-
-		.input_logos_2 {
-			@apply font-bold text-xl;
-		}
 	}
-
 	.input_advertiz {
-		@apply flex grow-[3] justify-center text-white items-center text-center;
+		@apply lg:flex lg:absolute lg:w-[100%] lg:left-0 lg:bottom-[5%] lg:flex-col 
+		justify-center text-white items-center text-center hidden;
 
 		p {
-			@apply text-xl w-[40%];
+			@apply text-[23px];
 		}
-	}
-	.footer {
-		@apply flex grow-[1] justify-center text-white text-center text-sm;
+		.footer {
+			@apply lg:flex lg:justify-center lg:mt-[3%] text-white text-center text-[12px] hidden;
+		}
 	}
 }

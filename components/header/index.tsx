@@ -35,6 +35,9 @@ const Header: FC = () => {
 				<div className={styles.signin}>Sign in</div>
 				<div className={styles.register}>Register</div>
 			</div>
+			<div className={styles.sideBarButton}>
+				<img src='/sideBar.svg' />
+			</div>
 		</div>
 	);
 };

@@ -18,26 +18,26 @@ const Hero: FC = () => {
 					</div>
 				</div>
 				<div className={styles.input_logos}>
-					<div className={styles.input_logos_1}>
-						<div className={styles.input_logos_1_text}>
-							HM Land <br />
-							Registry
-						</div>
-						<img src='/snow.svg' />
-					</div>
+					<img src='/snow.svg' />
+					<img src='/lowlogo.svg' />
+					<img src='/actionFraud.svg' />
+				</div>
+				<div className={styles.applDownloadLogo}>
 					<div>
-						<img src='/lowlogo.svg' />
+						<img src='/applDownloadLogo.svg' />
+						Download Our App
 					</div>
-					<div className={styles.input_logos_2}>ActionFraud</div>
 				</div>
 				<div className={styles.input_advertiz}>
 					<p>
-						The level of fraud in the UK is such that it is a
+						The level of fraud in the UK is such that it is a <br />
 						<strong> National Security </strong>
 						threat
 					</p>
+					<div className={styles.footer}>
+						* UK Finance half year fraud update
+					</div>
 				</div>
-				<div className={styles.footer}>* UK Finance half year fraud update</div>
 			</div>
 		</div>
 	);
