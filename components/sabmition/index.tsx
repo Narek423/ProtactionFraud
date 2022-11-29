@@ -5,7 +5,7 @@ const Sabmition: FC = () => {
 	return (
 		<div className={styles.body}>
 			<div className={styles.title}>
-				Don't want to be the next victim of <br /> <span>Title Fraud?</span>
+				Don't want to be the next victim of <span>Title Fraud?</span>
 			</div>
 			<img src='/line.svg' />
 			<div className={styles.text}>

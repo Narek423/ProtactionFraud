@@ -34,7 +34,7 @@ const ProtectionInformation: FC = () => {
 					from <span>identity theft</span> and <span>property hijacking</span>
 				</p>
 			</div>
-			<img src='/line.svg' />
+			<img className={styles.line} src='/line.svg' />
 			<div className={styles.suggestion}>
 				<div className={styles.suggestion_title}>
 					3 simple steps that can turn your world upside down
@@ -58,7 +58,8 @@ const ProtectionInformation: FC = () => {
 						<img src='/playButton.svg' />
 					</div>
 					<div className={styles.bottomVideoContText}>
-						<h1>How it Works</h1>
+						<div className={styles.title}>How it Works</div>
+						<div className={styles.line}></div>
 						<p>
 							Your home and family is your most valuable asset. Protecting them
 							is now simple and secure with Title Guardian. Our technology will

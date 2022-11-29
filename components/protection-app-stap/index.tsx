@@ -10,7 +10,6 @@ const ProtectionAppStap: FC<ProtectionAppStapProps> = (props) => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={styles.num}>{props.num}</div>
-			<br />
 			<div className={styles.text}>{props.text}</div>
 		</div>
 	);

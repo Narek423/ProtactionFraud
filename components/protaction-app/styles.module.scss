@@ -1,25 +1,25 @@
 .body {
-	@apply flex flex-col min-w-full min-h-screen bg-[#F4F8F9] pt-[6%];
+	@apply flex flex-col min-w-full min-h-screen bg-[#F4F8F9] lg:py-[8%] xl:py-[6%] p-2 pb-12 pt-20 lg:pb-0 xl:pt-28;
 
 	.head {
-		@apply flex flex-col gap-6 justify-center items-center;
+		@apply flex flex-col gap-6 justify-center items-center lg:pb-20 xl:pb-16;
 
 		.title {
-			@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
+			@apply text-center text-[26px] xl:text-[38px] font-semibold lg:font-semibold lg:text-[36px] text-[#4E4E4E] leading-snug;
 
 			span {
 				@apply text-cyan1;
 			}
 		}
 		.text {
-			@apply text-[#95A1A1] w-[30%] text-center;
+			@apply text-[#95A1A1] lg:w-[55%] text-center xl:text-[19px] text-[15px] md:w-[70%] xl:w-[38%] w-[90%] font-medium;
 		}
 	}
 	.protecton_ilustretion {
-		@apply grid p-32 pt-12;
+		@apply lg:grid lg:p-6 lg:pt-12 xl:px-32 xl:pt-0 xl:pb-0 flex flex-col;
 
 		.phone {
-			@apply flex justify-center col-start-3 col-end-4 row-start-1 row-end-[10];
+			@apply flex justify-center col-start-3 col-end-4 row-start-1 row-end-[10] lg:mt-0 mt-10 lg:mb-0 mb-7;
 		}
 		.item_1 {
 			@apply col-start-1 col-end-2 row-start-3 row-end-4;

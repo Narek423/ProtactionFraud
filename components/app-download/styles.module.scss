@@ -2,28 +2,37 @@
 	@apply flex justify-center items-center min-w-full min-h-screen;
 
 	.conteiner {
-		@apply flex bg-[#F4F8F9] mt-[12%] mb-[5%] w-[85%];
+		@apply flex lg:flex-row flex-col-reverse bg-[#F4F8F9] 
+		mt-[50%] lg:mt-[12%] md:mt-[40%] mb-[5%] xl:w-[85%] lg:w-[95%] w-[92%];
 
 		.informationDownload {
-			@apply flex flex-col bg-[#F4F8F9] w-[50%] p-[5%];
+			@apply flex flex-col bg-[#F4F8F9] lg:w-[100%] p-[5%] lg:pl-12 
+			md:p-0 lg:items-start items-center lg:justify-center;
+
 			.title {
-				@apply text-5xl leading-[120%];
+				@apply lg:text-[34px] lg:text-left w-[80%] md:w-[65%] font-medium text-[26px] leading-[120%] text-center
+				xl:text-[38px] xl:font-semibold text-[#4e4e4e];
 
 				span {
-					@apply text-5xl text-cyan1;
+					@apply lg:text-[34px] xl:font-semibold xl:text-[38px] lg:text-left text-[26px] font-medium text-cyan1;
 				}
 			}
 
 			.downloadText {
-				@apply font-normal text-lg leading-[150%] text-[#95a1a1] w-[75%] pt-6;
+				@apply lg:text-[15px] md:w-[70%] lg:w-[79%] text-center lg:text-left text-[15px] leading-[150%] text-[#95a1a1] xl:w-[75%] 
+				pt-6 lg:pt-0 xl:text-[17px];
+			}
+
+			.line {
+				@apply mx-auto mt-4 lg:ml-0 lg:my-6 w-[111px] h-[4px] bg-[#eaeeef] rounded-[30px];
 			}
 
 			img {
-				@apply pt-6 w-36;
+				@apply lg:pt-6 pt-3 w-[180px] mx-auto lg:mx-0;
 			}
 
 			.downloadButton {
-				@apply flex gap-4 pt-2;
+				@apply flex md:flex-row flex-col md:gap-4 lg:pt-2 pt-5 mb-16 lg:mb-0;
 
 				.playMButton {
 					@apply cursor-pointer;
@@ -34,9 +43,10 @@
 			}
 		}
 		.imgPart {
-			@apply mt-[-10%];
+			@apply xl:mt-[-10%] mt-[-35%] md:mt-[-30%] mx-auto md:w-[80%] lg:w-[100%] lg:mt-0 lg:pt-6 xl:pt-0;
+
 			img {
-				@apply ml-[7%];
+				@apply ml-[5%];
 			}
 		}
 	}

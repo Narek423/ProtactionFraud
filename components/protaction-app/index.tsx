@@ -6,7 +6,7 @@ const ProtectionApp: FC = () => {
 	const stapData = [
 		{
 			style: styles.item_1,
-			text: "Title Guardian will protect your property and enable friends and family to act as joint guardians . Ideal for elderly owners or people based overseas.",
+			text: "Title Guardian will protect your property and enable friends and family to act as joint guardians. Ideal for elderly owners or people based overseas.",
 			num: "01",
 		},
 		{
@@ -16,7 +16,7 @@ const ProtectionApp: FC = () => {
 		},
 		{
 			style: styles.item_3,
-			text: "Title Guardian has thousands of integrated data points enabling early stage notification of any activity on your property .",
+			text: "Title Guardian has thousands of integrated data points enabling early stage notification of any activity on your property.",
 			num: "03",
 		},
 	];

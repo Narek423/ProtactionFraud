@@ -30,6 +30,7 @@ const VictimsGalery: FC = () => {
 					<h1>
 						<strong>Victims </strong> of Property Fraud​
 					</h1>
+					<div className={styles.line}></div>
 					<p>
 						Property & title fraud is an invisible digital threat that affects
 						everyone. Here are just a few examples.
@@ -54,6 +55,12 @@ const VictimsGalery: FC = () => {
 						</div>
 					);
 				})}
+			</div>
+			<div className={styles.button_coneiner}>
+				<span>
+					<img className={styles.img_1} src='/leftArrow.png' />
+					<img className={styles.img_2} src='/rightArrow.png' />
+				</span>
 			</div>
 		</div>
 	);

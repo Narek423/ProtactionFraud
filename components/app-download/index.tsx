@@ -7,10 +7,9 @@ const AppDownload: FC = () => {
 			<div className={styles.conteiner}>
 				<div className={styles.informationDownload}>
 					<div className={styles.title}>
-						<span>Home Protection</span> <br /> in your pocket.
-						<br /> Download the App
+						<span>Home Protection</span> in your pocket. Download the App
 					</div>
-					<img src='/line.svg' />
+					<div className={styles.line}></div>
 					<div className={styles.downloadText}>
 						Download the Title Guardian mobile App from the App Store or Google
 						Play to make protecting your home even easier. Registration is

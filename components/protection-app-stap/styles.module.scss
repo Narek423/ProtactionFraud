@@ -1,11 +1,11 @@
 .wrapper {
-	@apply flex flex-col justify-center items-center text-center;
+	@apply flex flex-col justify-center items-center text-center pb-12;
 
 	.text {
-		@apply text-[#95A1A1] mt-1 w-[70%];
+		@apply text-[#95A1A1] text-[15px] xl:text-[17px] font-normal mt-1 lg:w-[80%] md:w-[62%] w-[90%];
 	}
 
 	.num {
-		@apply text-cyan1 text-[45px];
+		@apply text-cyan1 text-[32px] font-semibold md:text-[45px] md:font-semibold;
 	}
 }
