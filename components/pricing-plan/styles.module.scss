@@ -2,11 +2,11 @@
 	@apply flex flex-col gap-3 justify-center items-center text-center bg-[#F4F8F9] py-8;
 
 	.mark {
-		@apply absolute mt-[-175px] mr-[-250px] text-white p-1 px-2 bg-cyan1 rounded-[40px];
+		@apply absolute mt-[-175px] mr-[-250px];
 	}
 
 	.price {
-		@apply text-3xl leading-7 text-cyan1;
+		@apply relative text-3xl leading-7 text-cyan1;
 
 		span {
 			@apply absolute text-2xl ml-[-13px] mt-[-6px];
@@ -27,7 +27,7 @@
 
 	.features_item,
 	.features_item_cyan {
-		@apply flex pl-5 text-base leading-7 text-[#5b5150];
+		@apply flex pl-5 text-base leading-7 text-[#5b5150] whitespace-nowrap;
 		img {
 			@apply pr-3;
 		}
@@ -39,7 +39,7 @@
 }
 
 .botton_wrapper {
-	@apply flex justify-center w-full;
+	@apply flex justify-center w-[270px] lg:w-full px-4;
 
 	.button,
 	.button_cyan {

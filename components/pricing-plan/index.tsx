@@ -13,7 +13,9 @@ const PicingPlan: FC<PicingPlanProps> = (props) => {
 	return (
 		<>
 			<div className={styles.header}>
-				{!props.index ? <div className={styles.mark}>POPULAR</div> : null}
+				{!props.index ? (
+					<img src='/popularLogo.svg' className={styles.mark} />
+				) : null}
 				<div className={styles.price}>
 					<span>£</span>
 					{props.price}
