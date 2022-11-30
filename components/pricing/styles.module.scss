@@ -1,19 +1,19 @@
 .body {
-	@apply flex flex-col items-center min-h-screen gap-y-6 w-[85%] mx-auto;
+	@apply flex flex-col items-center min-h-screen gap-y-6 w-[85%] mx-auto mt-14;
 
 	.title {
-		@apply text-center font-bold text-4xl text-[#4E4E4E] leading-snug;
+		@apply text-center font-semibold text-[26px] lg:text-[34px] xl:text-[38px] text-[#4E4E4E] leading-snug;
 
 		span {
 			@apply text-cyan1;
 		}
 	}
 	.line {
-		@apply bg-[#eaeeef] rounded-[30px] h-1 w-28 left-[611px] top-28;
+		@apply bg-[#eaeeef] rounded-[30px] h-1 w-28 left-[611px] top-28 my-[-2px] hidden md:block;
 	}
 
 	.text {
-		@apply text-[#95A1A1] w-[30%]  text-center;
+		@apply text-[#95A1A1] text-[16px] lg:text-[19px] xl:w-[40%] md:w-[70%] lg:w-[80%] text-center;
 	}
 
 	img {
@@ -21,10 +21,10 @@
 	}
 
 	.pricing_container {
-		@apply flex overflow-hidden lg:grid grid-cols-3 gap-7 w-full my-5;
+		@apply flex md:flex-col lg:overflow-visible overflow-hidden lg:grid grid-cols-3 gap-7 w-full my-5 mt-8;
 
 		.pricing_items {
-			@apply flex flex-col border-[#eaeeef] border-[1px] rounded-xl;
+			@apply flex flex-col md:flex-row lg:flex-col border-[#eaeeef] border-[1px] rounded-xl;
 		}
 	}
 }

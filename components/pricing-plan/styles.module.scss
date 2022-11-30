@@ -1,33 +1,33 @@
 .header {
-	@apply flex flex-col gap-3 justify-center items-center text-center bg-[#F4F8F9] py-8;
+	@apply flex flex-col gap-3 md:w-[40%] lg:w-full justify-center items-center text-center bg-[#F4F8F9] py-8;
 
 	.mark {
-		@apply absolute mt-[-175px] mr-[-250px];
+		@apply absolute mt-[-175px] mr-[-170px] xl:mr-[-270px] md:mt-[-360px] md:mr-[-20%] lg:mt-[-175px] lg:mr-[-18%];
 	}
 
 	.price {
-		@apply relative text-3xl leading-7 text-cyan1;
+		@apply relative text-[31px] font-medium leading-7 text-cyan1;
 
 		span {
-			@apply absolute text-2xl ml-[-13px] mt-[-6px];
+			@apply absolute text-[22px] font-medium ml-[-13px] mt-[-6px];
 		}
 	}
 
 	.title {
-		@apply text-3xl leading-7 text-[#4e4e4e];
+		@apply text-[21px] lg:text-[29px] font-medium leading-7 text-[#4e4e4e];
 	}
 
 	.planLongevity {
-		@apply text-lg leading-7 text-[#95a1a1];
+		@apply text-[16px] xl:text-[17px] font-medium xl:font-normal leading-7 text-[#95a1a1];
 	}
 }
 
 .features_container {
-	@apply flex flex-col gap-3 py-6;
+	@apply flex flex-col gap-3 py-6 md:w-[60%] lg:w-full;
 
 	.features_item,
 	.features_item_cyan {
-		@apply flex pl-5 text-base leading-7 text-[#5b5150] whitespace-nowrap;
+		@apply flex pl-5 lg:pl-5 md:pl-8 text-[15px] md:text-[13px] xl:text-[15px] font-medium leading-7 text-[#5b5150] whitespace-nowrap;
 		img {
 			@apply pr-3;
 		}
@@ -39,11 +39,12 @@
 }
 
 .botton_wrapper {
-	@apply flex justify-center w-[270px] lg:w-full px-4;
+	@apply flex justify-center w-[270px] md:w-[300px] md:ml-4 lg:ml-0 lg:w-full px-4 pt-3;
 
 	.button,
 	.button_cyan {
-		@apply flex justify-center items-center cursor-pointer mb-6 w-[305px] h-[50px] border-cyan1 border-[2px] rounded;
+		@apply flex justify-center text-[16px] lg:text-[17px] font-medium items-center cursor-pointer mb-2 w-[305px] 
+		h-[50px] border-cyan1 border-[2px] rounded xl:w-[350px];
 	}
 	.button_cyan {
 		@apply bg-cyan1 text-white;

@@ -39,13 +39,13 @@ const PicingPlan: FC<PicingPlanProps> = (props) => {
 						</div>
 					);
 				})}
-			</div>
-			<div className={styles.botton_wrapper}>
-				{props.index === 0 ? (
-					<div className={styles.button_cyan}>Purchase</div>
-				) : (
-					<div className={styles.button}>Contact us</div>
-				)}
+				<div className={styles.botton_wrapper}>
+					{props.index === 0 ? (
+						<div className={styles.button_cyan}>Purchase</div>
+					) : (
+						<div className={styles.button}>Contact us</div>
+					)}
+				</div>
 			</div>
 		</>
 	);
