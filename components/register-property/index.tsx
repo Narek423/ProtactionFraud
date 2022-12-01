@@ -4,7 +4,6 @@ import styles from "./styles.module.scss";
 const RegisterProperty: FC = () => {
 	return (
 		<div className={styles.body}>
-			<img src='/family.jpg' />
 			<div className={styles.conteiner}>
 				<div className={styles.titel}>
 					<img src='/mainLogo.svg' />

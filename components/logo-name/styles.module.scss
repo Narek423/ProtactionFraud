@@ -1,3 +1,7 @@
 .logo {
-	@apply ml-[7.4%] mt-[7%] mb-[1%];
+	@apply ml-0 mt-28 mb-3 lg:ml-[7.4%];
+
+	img {
+		@apply mx-auto lg:mx-0;
+	}
 }

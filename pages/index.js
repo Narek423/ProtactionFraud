@@ -22,10 +22,10 @@ export default function Home() {
 			<ProtectionApp />
 			<AppDownload />
 			<Pricing />
-			{/* <RegisterProperty /> */}
-			{/* <LogoName /> */}
-			{/* <FooterInformation /> */}
-			{/* <Footer /> */}
+			<RegisterProperty />
+			<LogoName />
+			<FooterInformation />
+			<Footer />
 		</div>
 	);
 }

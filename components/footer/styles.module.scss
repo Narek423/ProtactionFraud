@@ -1,5 +1,6 @@
 .body {
-	@apply flex justify-between w-[85%] mx-auto text-[#95A1A1] py-5 text-[13px] shadow-[0_-2px_0px_rgba(242,242,242)];
+	@apply flex flex-col-reverse gap-4 py-7 lg:flex-row items-center lg:justify-between w-[85%] mx-auto text-[#95A1A1] lg:py-5 
+	text-[13px] shadow-[0_-2px_0px_rgba(242,242,242)] font-medium;
 
 	.social_icons_container {
 		@apply flex gap-4;
