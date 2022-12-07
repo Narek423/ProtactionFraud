@@ -2,14 +2,14 @@
 	@apply flex relative bg-cover bg-center bg-[url('/background_hero.svg')];
 
 	.head {
-		@apply flex flex-col justify-center min-w-full min-h-screen top-[-2px] bg-gradient-to-t from-cyan1 px-[5%];
+		@apply flex flex-col justify-center min-w-full min-h-screen top-[-2px] bg-gradient-to-t from-cyan1 px-4 md:px-10 lg:px-20;
 	}
 	.input_header {
 		@apply flex justify-center text-center text-base text-white;
 
 		.input_header_text {
 			@apply flex xl:text-[44px]  text-2xl mt-auto mb-4 md:text-[32px] 
-			md:w-[60%] leading-[150%] md:leading-[120%] lg:w-[70%] w-[80%] font-bold xl:w-[55%];
+			md:w-[62%] leading-[150%] md:leading-[120%] lg:w-[70%] font-bold xl:w-[60%];
 		}
 	}
 
@@ -44,14 +44,14 @@
 		}
 	}
 	.input_advertiz {
-		@apply lg:flex lg:absolute lg:w-[100%] lg:left-0 lg:bottom-[5%] lg:flex-col 
+		@apply lg:flex lg:absolute lg:w-[100%] lg:left-0 lg:bottom-8 lg:flex-col 
 		justify-center text-white items-center text-center hidden;
 
 		p {
 			@apply text-[23px];
 		}
 		.footer {
-			@apply lg:flex lg:justify-center lg:mt-[3%] text-white text-center text-[12px] hidden;
+			@apply lg:flex lg:justify-center lg:mt-8 text-white text-center text-[12px] hidden;
 		}
 	}
 }

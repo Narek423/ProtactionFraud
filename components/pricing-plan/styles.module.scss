@@ -1,8 +1,8 @@
 .header {
-	@apply flex flex-col gap-3 md:w-[40%] lg:w-full justify-center items-center text-center bg-[#F4F8F9] py-8;
+	@apply flex relative flex-col gap-3 md:w-[40%] lg:w-full justify-center items-center text-center bg-[#F4F8F9] py-8;
 
 	.mark {
-		@apply absolute mt-[-175px] mr-[-170px] xl:mr-[-270px] md:mt-[-360px] md:mr-[-20%] lg:mt-[-175px] lg:mr-[-18%];
+		@apply absolute top-[-1rem] right-0;
 	}
 
 	.price {

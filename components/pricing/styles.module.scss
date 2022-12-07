@@ -21,7 +21,7 @@
 	}
 
 	.pricing_container {
-		@apply flex md:flex-col lg:overflow-visible overflow-hidden lg:grid grid-cols-3 gap-7 w-full my-5 mt-8;
+		@apply flex md:flex-col lg:overflow-visible overflow-hidden lg:grid grid-cols-3 gap-7 w-full mb-5 pt-8;
 
 		.pricing_items {
 			@apply flex flex-col md:flex-row lg:flex-col border-[#eaeeef] border-[1px] rounded-xl;

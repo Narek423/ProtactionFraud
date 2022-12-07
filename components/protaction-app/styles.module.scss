@@ -1,5 +1,5 @@
 .body {
-	@apply flex flex-col min-w-full min-h-screen bg-[#F4F8F9] lg:py-[8%] xl:py-[6%] p-2 pb-12 pt-20 lg:pb-0 xl:pt-28;
+	@apply flex flex-col min-w-full min-h-screen bg-[#F4F8F9] lg:py-20 p-2 pb-12 pt-20 lg:pb-0 xl:pt-28;
 
 	.head {
 		@apply flex flex-col gap-6 justify-center items-center lg:pb-20 xl:pb-16;

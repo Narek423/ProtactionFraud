@@ -2,7 +2,7 @@
 	@apply flex w-[85%] mx-auto;
 
 	.pricing_container {
-		@apply grid lg:grid-cols-4 md:grid-cols-2 lg:gap-28 gap-14 w-full my-5 py-12 lg:py-[6%] shadow-[0_-2px_0px_rgba(242,242,242)];
+		@apply grid lg:grid-cols-4 md:grid-cols-2 lg:gap-28 gap-14 w-full my-5 py-12 lg:py-20 shadow-[0_-2px_0px_rgba(242,242,242)];
 
 		.pricing_col {
 			@apply flex flex-col gap-7 items-center;

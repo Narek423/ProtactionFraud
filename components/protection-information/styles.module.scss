@@ -1,9 +1,9 @@
 .body {
-	@apply flex flex-col items-center min-w-full min-h-screen bg-[#F4F8F9] px-[5%] pt-[2%];
+	@apply flex flex-col items-center min-w-full min-h-screen bg-[#F4F8F9] px-3 md:px-16 pt-6;
 
 	.header {
 		@apply text-[28px] lg:text-[34px] text-center mt-14 
-		w-[100%] md:w-[80%] lg:w-[65%] xl:text-[38px] xl:w-[55%] leading-[130%] font-medium;
+		w-[100%] md:w-[80%] lg:w-[75%] xl:text-[38px] xl:w-[60%] leading-[130%] font-medium;
 
 		span {
 			@apply text-cyan1 font-semibold;
@@ -19,7 +19,7 @@
 
 		.suggestion_title {
 			@apply text-center mx-auto row-start-1 lg:col-start-3 lg:col-end-7
-			 lg:text-[21px] text-[16px] w-[80%] md:w-[50%] lg:w-[85%] xl:text-[24px] xl:w-[85%] lg:text-[#95A1A1];
+			 lg:text-[21px] text-[16px] w-[80%] md:w-[50%] lg:w-[85%] xl:text-[24px] xl:w-[60%] lg:text-[#95A1A1];
 		}
 		.suggestion_step1 {
 			@apply col-start-1  col-span-2 row-start-1 row-end-5;
@@ -32,21 +32,21 @@
 		}
 	}
 	.bottomVideo {
-		@apply bg-cover bg-center bg-[url('/videoBackground.svg')] lg:w-[65%] lg:ml-[7%] md:mt-[30%] mt-[45%] lg:mt-0 rounded-lg mb-20;
+		@apply bg-cover bg-center bg-[url('/videoBackground.svg')] lg:w-[65%] lg:ml-[7rem] mt-36 lg:mt-0 rounded-lg mb-20;
 
 		.bottomVideoCont {
 			@apply flex flex-col lg:flex-row items-center min-w-full py-14 bg-gradient-to-t from-cyan1 to-[#0badb99b] rounded-lg;
 
 			.videoScreen {
 				@apply flex grow items-center justify-center bg-cover bg-center lg:w-1/2 md:w-[60%] w-[80%] aspect-video 
-				bg-slate-400 lg:ml-[-11%] md:mt-[-30%] mt-[-45%] lg:mt-0 bg-[url('/videoGirl.svg')] rounded-lg;
+				bg-slate-400 lg:ml-[-7rem] mt-[-10rem] md:mt-[-12rem] lg:mt-0 bg-[url('/videoGirl.svg')] rounded-lg;
 
 				img {
 					@apply w-[20%] md:w-auto;
 				}
 			}
 			.bottomVideoContText {
-				@apply flex grow flex-col lg:w-1/2 px-8 lg:px-6 overflow-hidden text-white text-center lg:text-left;
+				@apply flex grow flex-col lg:w-1/2 px-8 lg:px-6 overflow-hidden text-white text-center lg:text-left mt-4;
 
 				.title {
 					@apply text-[26px] mt-4 md:text-[26px] lg:text-[34px] xl:text-[38px];

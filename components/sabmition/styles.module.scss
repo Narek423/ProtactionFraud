@@ -1,8 +1,9 @@
 .body {
-	@apply flex flex-col gap-6 justify-center items-center min-w-full min-h-screen bg-cover bg-center bg-[url('/submitionBackground.svg')] px-3;
+	@apply flex flex-col gap-6 justify-center items-center min-w-full min-h-screen bg-cover bg-center bg-[url('/submitionBackground.svg')]  
+	md:px-3 px-1;
 
 	.title {
-		@apply text-center xl:w-[40%] lg:w-[60%] font-semibold lg:text-[34px] lg:font-medium 
+		@apply text-center xl:w-[42%] lg:w-[60%] font-semibold lg:text-[34px] lg:font-medium 
 		md:w-[75%] xl:text-[38px] text-[#4E4E4E] leading-snug text-[26px];
 
 		span {
@@ -11,7 +12,7 @@
 	}
 
 	.text {
-		@apply text-[#95A1A1] xl:text-[17px] font-normal xl:w-[43%] lg:w-[60%] md:w-[65%] text-[15px] text-center;
+		@apply text-[#95A1A1] xl:text-[17px] font-normal xl:w-[45%] lg:w-[60%] md:w-[60%] text-[15px] text-center;
 	}
 
 	.button {

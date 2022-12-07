@@ -16,7 +16,7 @@
 		}
 		.button {
 			@apply flex shadow-[0_4px24px_-15px_rgba(10,172,184,0.122)] justify-center text-white bg-[#ffffff4d] text-[19px]  
-			px-5 py-4 my-6 cursor-pointer mb-[7%] rounded-[55px] w-[255px] leading-[120%] font-medium items-center;
+			px-5 py-4 my-6 cursor-pointer mb-10 lg:mb-20 rounded-[55px] w-[255px] leading-[120%] font-medium items-center;
 		}
 	}
 }

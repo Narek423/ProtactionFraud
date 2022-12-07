@@ -3,6 +3,13 @@ import styles from "./styles.module.scss";
 
 const Header: FC = () => {
 	const [navStyle, setNavStyle] = useState(styles.navbar);
+	const navbarButtons = [
+		"Home",
+		"Property Fraud",
+		"Partners",
+		"FAQ",
+		"Contact",
+	];
 
 	const onScroll = () => {
 		if (window.scrollY > window.innerHeight) {
@@ -25,11 +32,11 @@ const Header: FC = () => {
 				<img src='/mainLogo.svg' /> Title Guardian
 			</div>
 			<div className={styles.center_butten_conteiner}>
-				<div className={styles.nav_buttons}>Home</div>
-				<div className={styles.nav_buttons}>Property Fraud</div>
-				<div className={styles.nav_buttons}>Partners</div>
-				<div className={styles.nav_buttons}>FAQ</div>
-				<div className={styles.nav_buttons}>Contact</div>
+				{navbarButtons.map((elem, i) => (
+					<div className={styles.nav_buttons} key={i + Math.random()}>
+						{elem}
+					</div>
+				))}
 			</div>
 			<div className={styles.auth_buttons}>
 				<div className={styles.signin}>Sign in</div>
