@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import styles from "./styles.module.scss";
 
 const Hero: FC = () => {
+	const inputImgLinks = ["/snow.svg", "/lowlogo.svg", "/actionFraud.svg"];
 	return (
 		<div className={styles.head_wrapper}>
 			<div className={styles.head}>
@@ -18,9 +19,9 @@ const Hero: FC = () => {
 					</div>
 				</div>
 				<div className={styles.input_logos}>
-					<img src='/snow.svg' />
-					<img src='/lowlogo.svg' />
-					<img src='/actionFraud.svg' />
+					{inputImgLinks.map((elem, i) => (
+						<img key={i + Math.random()} src={elem} />
+					))}
 				</div>
 				<div className={styles.applDownloadLogo}>
 					<div>

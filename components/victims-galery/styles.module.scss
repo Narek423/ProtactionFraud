@@ -19,24 +19,6 @@
 				@apply flex xl:w-[75%] lg:w-[90%] xl:text-[19px] text-center lg:text-left text-[17px] text-[#ffffffcc] opacity-80 font-normal;
 			}
 		}
-		.button_coneiner {
-			@apply lg:flex w-[50%] lg:h-[290px] justify-end hidden;
-
-			span {
-				@apply h-[73px] w-[180px] mt-auto;
-			}
-
-			.img_1 {
-				@apply inline-block cursor-pointer;
-			}
-
-			.img_2 {
-				@apply inline-block cursor-pointer ml-[30px];
-			}
-			img {
-				@apply rounded-full;
-			}
-		}
 	}
 
 	.victims_grid {
@@ -62,22 +44,31 @@
 			}
 		}
 	}
+
+	.button_coneiner,
+	.button_coneiner_bottom {
+		span {
+			@apply flex gap-6 h-[73px] w-[180px];
+		}
+
+		.img_1,
+		.img_2 {
+			@apply inline-block cursor-pointer rounded-full;
+		}
+	}
 	.button_coneiner {
+		@apply lg:flex w-[50%] justify-end hidden;
+
+		span {
+			@apply mt-auto mb-9;
+		}
+	}
+
+	.button_coneiner_bottom {
 		@apply flex justify-center py-9 pb-20 lg:hidden;
 
 		span {
-			@apply h-[73px] w-[180px] mt-4;
-		}
-
-		.img_1 {
-			@apply inline-block cursor-pointer;
-		}
-
-		.img_2 {
-			@apply inline-block cursor-pointer ml-[30px];
-		}
-		img {
-			@apply rounded-full;
+			@apply mt-4;
 		}
 	}
 }

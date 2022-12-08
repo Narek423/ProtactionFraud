@@ -56,7 +56,7 @@ const VictimsGalery: FC = () => {
 					);
 				})}
 			</div>
-			<div className={styles.button_coneiner}>
+			<div className={styles.button_coneiner_bottom}>
 				<span>
 					<img className={styles.img_1} src='/leftArrow.png' />
 					<img className={styles.img_2} src='/rightArrow.png' />
